@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+const App = () => (
+  <div className="container mx-auto mt-12">
+    <h2 className="text-6xl font-bold">Hello world</h2>
+    <p className="text-base font-serif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, natus. Dolorem aliquam laborum, tempore quia aperiam maxime, cumque ipsam reprehenderit blanditiis voluptas aut nihil nesciunt possimus, cupiditate aliquid sint doloribus!</p>
+  </div>
+)
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export default App
