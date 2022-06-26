@@ -21,7 +21,7 @@ const Card = ({ image }) => (
         </li>
       </ul>
     </div>
-    <img className="w-full rounded-xl" src={ image } alt="Keep projects on schedule" />
+    <img className="w-full rounded-lg md:rounded-xl" src={ image } alt="Keep projects on schedule" />
   </div>
 )
 
