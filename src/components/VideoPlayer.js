@@ -10,7 +10,7 @@ const VideoPlayer = () => {
 
   return (
     <div>
-      <div className="relative rounded-xl mt-4 md:mt-9 overflow-hidden">
+      <div className="relative rounded-lg md:rounded-xl mt-4 md:mt-9 overflow-hidden">
         <video className="cursor-pointer" src={ VideoSource } ref={ videoElement } poster={ VideoPrewiev } onClick={ togglePlay } onTimeUpdate={ handleOnTimeUpdate } />
         <button className={ `${ playerState.isPlaying ? 'opacity-0' : 'opacity-100' } absolute flex bg-neutral-200/50 backdrop-blur-sm drop-shadow-lg rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5 md:p-9 transition-opacity` } onClick={ togglePlay }>
           <IonIcon className="text-indigo-600" name="play" />
