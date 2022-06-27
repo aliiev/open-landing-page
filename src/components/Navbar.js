@@ -1,7 +1,7 @@
 import Logo from '../resources/Logo.svg'
 
 const Navbar = () => (
-  <nav className="flex justify-between items-center w-full">
+  <nav className="relative flex justify-between items-center w-full">
     <a className="rounded-full focus:outline-none focus:ring-4 focus:ring-indigo-600" href="/">
       <img className="h-8" src={ Logo } alt="Open" />
     </a>

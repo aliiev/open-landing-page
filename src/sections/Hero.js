@@ -1,7 +1,7 @@
 import VideoPlayer from '../components/VideoPlayer'
 
 const Hero = () => (
-  <section className="flex flex-col gap-4 md:gap-7 md:w-1/2 text-center mx-auto mt-12 md:mt-20">
+  <section className="relative flex flex-col gap-4 md:gap-7 md:w-1/2 text-center mx-auto mt-12 md:mt-20">
     <h2 className="text-3xl md:text-5xl text-neutral-50 font-extrabold">Landing template for startups</h2>
     <p className="text-base md:text-xl text-neutral-400">Our landing page template works on all devices, so you only have to <br className="hidden md:block" /> set it up once, and get beautiful results forever.</p>
     <div className="flex justify-center items-center gap-3">
