@@ -13,11 +13,11 @@ const footer = [{
 }]
 
 const Footer = () => (
-  <footer className="flex flex-col gap-8 md:gap-12 py-10 md:py-20">
+  <footer className="flex flex-col gap-8 lg:gap-12 py-14 lg:py-20">
     <div className="flex flex-col md:flex-row justify-between items-start gap-6">
-      <div className="flex flex-col gap-3.5 w-full md:w-1/2">
+      <div className="flex flex-col gap-3.5 w-full lg:w-1/2">
         <img className="w-8 h-8 object-contain" src={ Logo } alt="Open" />
-        <p className="text-base text-neutral-400">Lorem ipsum is placeholder text commonly <br className="hidden md:block" /> used in the graphic, print, and publishing <br className="hidden md:block" /> industries for previewing layouts and visual <br className="hidden md:block" /> mockups.</p>
+        <p className="text-base text-neutral-400">Lorem ipsum is placeholder text commonly <br className="hidden lg:block" /> used in the graphic, print, and publishing <br className="hidden lg:block" /> industries for previewing layouts and visual <br className="hidden lg:block" /> mockups.</p>
       </div>
       { footer.map(col => (
         <div key={ col.title }>

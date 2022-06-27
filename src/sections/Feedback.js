@@ -18,10 +18,10 @@ const comments = [{
 }]
 
 const Feedback = () => (
-  <section className="flex flex-col items-center gap-2 md:gap-4 text-center py-14 md:py-20">
-    <h3 className="text-2xl md:text-4xl text-neutral-50 font-extrabold">Don't take our word for it</h3>
-    <p className="text-base md:text-xl text-neutral-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus <br className="hidden md:block" /> nulla at volutpat diam ut venenatis tellus — in ornare.</p>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 md:mt-16">
+  <section className="flex flex-col items-center gap-2 lg:gap-4 text-center py-14 lg:py-20">
+    <h3 className="text-2xl md:text-3xl lg:text-4xl text-neutral-50 font-extrabold">Don't take our word for it</h3>
+    <p className="text-base md:text-lg lg:text-xl text-neutral-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus <br className="hidden lg:block" /> nulla at volutpat diam ut venenatis tellus — in ornare.</p>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 lg:mt-16">
       { comments.map((comment, i) => (
         <Comment key={ i } name={ comment.name } team={ comment.team } image={ comment.image } />
       )) }

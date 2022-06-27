@@ -9,7 +9,7 @@ const VideoPlayer = () => {
   const { playerState, togglePlay, handleOnTimeUpdate, handleVideoProgress, toggleMute } = useVideoPlayer(videoElement)
 
   return (
-    <div className="relative mt-4 md:mt-9">
+    <div className="relative mt-4 lg:mt-9">
       <div className="relative rounded-lg md:rounded-xl overflow-hidden z-10">
         <video className="cursor-pointer" src={ VideoSource } ref={ videoElement } poster={ VideoPrewiev } onClick={ togglePlay } onTimeUpdate={ handleOnTimeUpdate } />
         <button className={ `${ playerState.isPlaying ? 'opacity-0' : 'opacity-100' } absolute flex bg-neutral-200/50 backdrop-blur-sm drop-shadow-lg rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5 md:p-9 transition-opacity` } onClick={ togglePlay }>
